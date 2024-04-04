@@ -1,0 +1,13 @@
+name: Actions Workflow
+
+on:
+  [push]
+
+jobs:
+  run-github-actons:
+    runs-on: ubuntu-latest
+    steps:
+      -name: List Files
+        run: |
+          pwd
+          ls
