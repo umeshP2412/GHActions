@@ -7,7 +7,7 @@ jobs:
   run-github-actons:
     runs-on: ubuntu-latest
     steps:
-      -name: List Files
+      - name: List Files
         run: |
           pwd
           ls
